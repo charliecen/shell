@@ -13,4 +13,4 @@ else
         echo "rsync to remote backup server is failed $dat" >> /tmp/solrbak.log
 fi
 
-tail -n 2 /tmp/solrbak.log |sendEmail -u "solr_bak"  -f monitor@meihua.info -s mail.meihua.info -t charlie.cen@meihua.info -xu monitor -xp monitaA12
+tail -n 2 /tmp/solrbak.log |sendEmail -u "solr_bak"  -f monitor@meihua.info -s mail.meihua.info -t charlie.cen@meihua.info -xu monitor -xp xxxxoooo
