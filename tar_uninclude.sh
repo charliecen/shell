@@ -6,7 +6,7 @@ if [ $? -eq 0 ];then
 else
         echo "solr bak is not successful in $dat." >> /tmp/solrbak.log
 fi
-rsync -av /var/solr_bak/ 112.124.32.88::solrbak
+rsync -av /var/solr_bak/ 1.0.0.1::solrbak
 if [ $? -eq 0 ];then
         echo "rsync to remote backup server is ok in $dat" >> /tmp/solrbak.log
 else
