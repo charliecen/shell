@@ -11,3 +11,5 @@ echo $$ > $LOCKFILE
 read
 echo hello
 rm -rf $LOCKFILE
+
+echo finish
