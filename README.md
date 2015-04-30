@@ -1,1 +1,1 @@
-It's my repo
+It's my repo for scripts
