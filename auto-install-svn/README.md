@@ -1,5 +1,5 @@
 下载该脚本地址：
-git clone https://github.com/charliecen/shell/一键安装svn
+git clone https://github.com/charliecen/shell/tree/master/auto-install-svn
 
 chmod +x install_svn.sh
 
