@@ -1,0 +1,6 @@
+[pre]
+10.19.21.241 ansible_ssh_user=root ansible_ssh_pass=ooxx
+ 
+[online]
+10.19.21.242 ansible_ssh_user=root ansible_ssh_pass=ooxx
+10.19.21.243 ansible_ssh_user=root ansible_ssh_pass=ooxx
